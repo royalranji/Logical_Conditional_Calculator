@@ -2,11 +2,9 @@ package com.steps;
 
 import com.pages.CalculatorPage;
 import io.cucumber.datatable.DataTable;
-import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import org.testng.Assert;
 
 import java.util.*;
 
@@ -31,8 +29,8 @@ public class CalculatorPageSteps {
         calculatorPage.validateResponse(input.asList().get(0));
     }
 
-    @And("Customer pass the algorithm equation and validate the result")
-    public void customerPassTheAlgorithmEquationAndValidateResult(DataTable input) {
+    @Then("Customer pass the algorithm equation and validate the result")
+    public void customer_pass_the_algorithm_equation_and_validate_the_result(DataTable input) {
         List<Map<String,String>> query = input.asMaps();
         query.stream().forEach(data -> {
             calculatorPage.clearTextArea();

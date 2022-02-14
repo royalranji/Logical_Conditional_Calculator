@@ -38,11 +38,6 @@ public class CalculatorPage extends BasePage {
 
     public void clickCalculateButton() {
         getWebElement(continueButton).click();
-        try {
-            Thread.sleep(10000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
     }
 
     public void validateResponse(String input) {
