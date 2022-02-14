@@ -1,0 +1,208 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-14T09:36:24.590Z",
+        "line": 16,
+        "name": "customer able to select group and perform various operation",
+        "description": "",
+        "id": "customer-is-able-to-arithmetic-operation-using-the-groups-already-exist;customer-able-to-select-group-and-perform-various-operation;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 895000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.utilities.Hooks.afterTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10375000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the customer has navigated to home page in Chrome",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chrome",
+                  "offset": 43
+                }
+              ],
+              "location": "com.steps.HomePageSteps.the_customer_has_navigated_to_home_page(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "Customer pass the logical equation",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "( primes Intersection evens )"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "customer click on calculate button",
+            "match": {
+              "location": "com.steps.CalculatorPageSteps.customerClickOnCalculateButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "customer will get this expected result",
+            "match": {
+              "location": "com.steps.CalculatorPageSteps.customerWillGetThisExpectedResult(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "2"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          },
+          {
+            "name": "@jithan"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-14T09:36:36.381Z",
+        "line": 17,
+        "name": "customer able to select group and perform various operation",
+        "description": "",
+        "id": "customer-is-able-to-arithmetic-operation-using-the-groups-already-exist;customer-able-to-select-group-and-perform-various-operation;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 806000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.utilities.Hooks.afterTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3954000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the customer has navigated to home page in Chrome",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Chrome",
+                  "offset": 43
+                }
+              ],
+              "location": "com.steps.HomePageSteps.the_customer_has_navigated_to_home_page(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "Customer pass the logical equation",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "primes ∆ evens"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "customer click on calculate button",
+            "match": {
+              "location": "com.steps.CalculatorPageSteps.customerClickOnCalculateButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 11,
+            "name": "customer will get this expected result",
+            "match": {
+              "location": "com.steps.CalculatorPageSteps.customerWillGetThisExpectedResult(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "3,4,5,6,7,8,10,11,12,13,14,16,17,18,19"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          },
+          {
+            "name": "@jithan"
+          }
+        ]
+      }
+    ],
+    "name": "Customer is able to arithmetic operation using the groups already exist",
+    "description": "  As a user - I want to select different group member to calculator and perform the given arthmetic operation",
+    "id": "customer-is-able-to-arithmetic-operation-using-the-groups-already-exist",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/features/calculator.feature",
+    "tags": [
+      {
+        "name": "@test",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
